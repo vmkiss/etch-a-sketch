@@ -2,3 +2,9 @@ header {
     text-align: center;
     font-size: 36px;
 }
+
+.container {
+    display: flex;
+    margin: 20px 100px;
+    justify-content: center;
+}
