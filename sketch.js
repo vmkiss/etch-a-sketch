@@ -31,24 +31,7 @@ clearBtn.addEventListener("click", () => {
         container.textContent = "";
         drawGrid(userNum);
     }
-
 })
 
 // Draw default 16x16 grid
 drawGrid(16);
-
-
-
-
-
-// Create 16x16 grid and append each square to container
-/*for (let i = 0; i < 256; i++) {
-    let newDiv = document.createElement("div");
-    newDiv.style.backgroundColor = "red";
-    let divHeight = 960/16 - 2;
-    let divWidth = 960/16 - 2;
-    newDiv.style.width = divWidth + "px";
-    newDiv.style.height = divHeight + "px";
-    newDiv.style.border = "solid black 1px";
-    container.appendChild(newDiv);
-} */
