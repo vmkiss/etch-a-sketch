@@ -28,7 +28,7 @@ clearBtn.addEventListener("click", () => {
     if (userNum < 0 || userNum > 100) {
         alert("Please enter a number between 0 and 100!")
     } else {
-        container.remove();
+        container.textContent = "";
         drawGrid(userNum);
     }
 
