@@ -1,13 +1,29 @@
 header {
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 36px;
+    margin: auto;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .container {
-    margin: auto;
+    margin: 10px auto;
     display: flex;
-    width: 800px;
-    height: 800px;
+    width: 700px;
+    height: 700px;
     justify-content: center;
     flex-wrap: wrap;
 }
